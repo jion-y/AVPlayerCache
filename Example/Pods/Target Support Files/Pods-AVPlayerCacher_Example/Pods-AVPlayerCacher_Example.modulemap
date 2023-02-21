@@ -1,0 +1,6 @@
+framework module Pods_AVPlayerCacher_Example {
+  umbrella header "Pods-AVPlayerCacher_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

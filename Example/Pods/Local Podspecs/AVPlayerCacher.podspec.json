@@ -1,0 +1,22 @@
+{
+  "name": "AVPlayerCacher",
+  "version": "0.1.0",
+  "summary": "A short description of AVPlayerCacher.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jion-y/AVPlayerCacher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jion-y": "liuming@wuji.co"
+  },
+  "source": {
+    "git": "https://github.com/jion-y/AVPlayerCacher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AVPlayerCacher/Classes/**/*"
+}

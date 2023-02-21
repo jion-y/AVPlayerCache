@@ -1,0 +1,16 @@
+PODS:
+  - AVPlayerCacher (0.1.0)
+
+DEPENDENCIES:
+  - AVPlayerCacher (from `../`)
+
+EXTERNAL SOURCES:
+  AVPlayerCacher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AVPlayerCacher: 9536ee65de9dfd755635210ac226a1ad828c683d
+
+PODFILE CHECKSUM: 5e6f63bdde37c4dd2342036c7e47a1e67d1ddff4
+
+COCOAPODS: 1.11.3

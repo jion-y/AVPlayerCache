@@ -1,0 +1,6 @@
+framework module AVPlayerCacher {
+  umbrella header "AVPlayerCacher-umbrella.h"
+
+  export *
+  module * { export * }
+}
