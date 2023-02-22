@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F3F4376F0533134D09E71F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F3F4376F0533134D09E71F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		30D3C3D86761A4498C1FE670 /* Pods-AVPlayerCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerCacher_Example.release.xcconfig"; path = "Target Support Files/Pods-AVPlayerCacher_Example/Pods-AVPlayerCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
-		40A294B3B9B85D3B48C4634D /* AVPlayerCacher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AVPlayerCacher.podspec; path = ../AVPlayerCacher.podspec; sourceTree = "<group>"; };
-		46DBA5B34665A02F716DB03C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40A294B3B9B85D3B48C4634D /* AVPlayerCacher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AVPlayerCacher.podspec; path = ../AVPlayerCacher.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46DBA5B34665A02F716DB03C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5E0BE8F802398E91E3C90F01 /* Pods_AVPlayerCacher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVPlayerCacher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AVPlayerCacher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerCacher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				A59A7CA943AB59B7A5A07A93 /* Pods-AVPlayerCacher_Tests.debug.xcconfig */,
 				D6C46FA631F40117A4925C71 /* Pods-AVPlayerCacher_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

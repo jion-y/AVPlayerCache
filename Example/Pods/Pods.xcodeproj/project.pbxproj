@@ -7,85 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E79A5EA2702A70E6ADDB669FBA1822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1EB0BCC5D8FA0C91237A70C455519B36 /* AVPlayerCacher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EEC482584AB348ED3B76734F93DF89 /* AVPlayerCacher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45F0D9D7E237D6A46E8F8F221A34490E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2132C020A3EF116F4D9F420D66721326 /* ReplaceMe.m */; };
-		59DB020F49A6917D74C9C60273534D5A /* AVPlayerCacher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D073DA801FD44B53D374E07E9E83D /* AVPlayerCacher-dummy.m */; };
+		09E79A5EA2702A70E6ADDB669FBA1822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		1BBEC29FA1A26E88984BCB87CEBFD9F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
+		1D22B7AD0817B1C88F305C7A1841A0C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		1F3958ED72672E6E909178DB9879BB03 /* RCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F66517B7FE1D595AE64A1AC2D09E85 /* RCAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289FA98CEA8757332C052CAC472D01F0 /* RCQueueUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 00211E2B82587276EAB755E62ABF13B4 /* RCQueueUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35EAE7D9F2F0E941401DFD29377573C8 /* AVPlayerCacher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF12AE500910E7F0F7DB77021D3E6E /* AVPlayerCacher-dummy.m */; };
 		6696DBFCEAD08546BD86A24D11C829DC /* Pods-AVPlayerCacher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2C753F758E0ABCFBE819C360FFE873 /* Pods-AVPlayerCacher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74D6D32627C30EA19B58935CD0825E89 /* Pods-AVPlayerCacher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DBB6A5215D6780F8EBA7F4DA4103B /* Pods-AVPlayerCacher_Example-dummy.m */; };
+		7CD04AB0F76E211B8E8D289E80607480 /* AVPlayerCacher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC228CD20A7A47DCEDDDCC760D31CBF /* AVPlayerCacher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847111B284C2B460545BC61B495E7D23 /* NSString+RCMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B1F5C4D9B0B93F0F2409D8A4A4C33 /* NSString+RCMD5.m */; };
+		8FF42FB7EDDA8093C2D9E382C86E9923 /* RCSegmentDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD6DCCA9C20047B29CB9021626F4927 /* RCSegmentDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9368732CD91475A5AE3D1FC57848F9D4 /* NSString+RCMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 576A5CF7EBF9735EECE2BC2561D9E691 /* NSString+RCMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A07791623F253CEC8ECCFEDD3BBF64 /* RCSegmentDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F00498E7EDAAF29BFD7624F27BC9E2 /* RCSegmentDownloader.m */; };
+		9DEA00A82EE892713FDAD550D1AB1C8B /* RCQueueUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F3A559352480C1E98172158E0EE090 /* RCQueueUtils.m */; };
+		AEAA107E900D12DD99244BDD7E3FB14A /* RCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = C68A81D1A311729D11080F77958B9EF0 /* RCAsset.m */; };
+		B88844AB602BD03C7E841A2BED8EAB13 /* RCDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C11464B61C3E5C177CA8D411A8AC4A /* RCDownloadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE233B4B538741B4031E6A03924C66B /* RCMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A0467DD3499FE88BA4257CB3C486D /* RCMediaManager.m */; };
 		DC4E7E8CC18669C06D62F3551CBFCADB /* Pods-AVPlayerCacher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB055EE31D59221E39D74D5B42DB83 /* Pods-AVPlayerCacher_Tests-dummy.m */; };
-		E9B40863ED01627330838CA21581FD45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F4A1720CABEC516316F2DDDE2D948613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF07E8343BCCD6EA3F22FFCD64F28928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		F0760390653040973EE75E685BAB8068 /* RCMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DF29875C93DAFFFE0E20F922E41F87 /* RCMediaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A1720CABEC516316F2DDDE2D948613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		F779A5E1F04CDD859E641F749FC015C7 /* RCDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C5DB7B9D574F318C86D697E605B259 /* RCDownloadOperation.m */; };
 		FCAEDE7696C7E05E84F0235641950CF5 /* Pods-AVPlayerCacher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC8B75E8522ED920C81E1FB8478D7D3 /* Pods-AVPlayerCacher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2BB8D3EAE5BDD2487FA620D1CE6275F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF35CEB2211196AADCA9123EC421AACB;
-			remoteInfo = "Pods-AVPlayerCacher_Example";
-		};
-		F6FED8C3C0D477534700E2CE45DB8AE4 /* PBXContainerItemProxy */ = {
+		6738E54F452ABFFD6DD0B9180098EC18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 358940405DB1E15ED08B0C6D5632F803;
 			remoteInfo = AVPlayerCacher;
 		};
+		FAA40CA6D924E724E2EAE399DADCE620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF35CEB2211196AADCA9123EC421AACB;
+			remoteInfo = "Pods-AVPlayerCacher_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		070D073DA801FD44B53D374E07E9E83D /* AVPlayerCacher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerCacher-dummy.m"; sourceTree = "<group>"; };
-		0D6202F89F266E2D23CBFC661B8D7198 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00211E2B82587276EAB755E62ABF13B4 /* RCQueueUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCQueueUtils.h; path = AVPlayerCacher/Classes/RCQueueUtils.h; sourceTree = "<group>"; };
 		0EC8B75E8522ED920C81E1FB8478D7D3 /* Pods-AVPlayerCacher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVPlayerCacher_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F2C753F758E0ABCFBE819C360FFE873 /* Pods-AVPlayerCacher_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVPlayerCacher_Example-umbrella.h"; sourceTree = "<group>"; };
-		167958D20A0AC17FE9A71F5027C824A6 /* AVPlayerCacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVPlayerCacher.release.xcconfig; sourceTree = "<group>"; };
-		2132C020A3EF116F4D9F420D66721326 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AVPlayerCacher/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1EB6822E960F5B63868C40891DCB5B15 /* AVPlayerCacher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AVPlayerCacher-Info.plist"; sourceTree = "<group>"; };
+		1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		22AFA3EED3D82E80981CE98692D28A22 /* Pods-AVPlayerCacher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AVPlayerCacher_Tests.modulemap"; sourceTree = "<group>"; };
-		2AF5FEB6E07D3612ED560498C901537E /* AVPlayerCacher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AVPlayerCacher.modulemap; sourceTree = "<group>"; };
-		40EEC482584AB348ED3B76734F93DF89 /* AVPlayerCacher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerCacher-umbrella.h"; sourceTree = "<group>"; };
+		25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		26F3A559352480C1E98172158E0EE090 /* RCQueueUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCQueueUtils.m; path = AVPlayerCacher/Classes/RCQueueUtils.m; sourceTree = "<group>"; };
 		412BD25616527D0462AB49780957F3B5 /* Pods-AVPlayerCacher_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVPlayerCacher_Example-Info.plist"; sourceTree = "<group>"; };
-		4F74705E16E9B5F9A06DCC47F4CA45FF /* AVPlayerCacher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerCacher-prefix.pch"; sourceTree = "<group>"; };
+		4DBF12AE500910E7F0F7DB77021D3E6E /* AVPlayerCacher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerCacher-dummy.m"; sourceTree = "<group>"; };
+		4FC228CD20A7A47DCEDDDCC760D31CBF /* AVPlayerCacher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerCacher-umbrella.h"; sourceTree = "<group>"; };
+		514B1F5C4D9B0B93F0F2409D8A4A4C33 /* NSString+RCMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RCMD5.m"; path = "AVPlayerCacher/Classes/NSString+RCMD5.m"; sourceTree = "<group>"; };
+		55C11464B61C3E5C177CA8D411A8AC4A /* RCDownloadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCDownloadOperation.h; path = AVPlayerCacher/Classes/RCDownloadOperation.h; sourceTree = "<group>"; };
+		55C5DB7B9D574F318C86D697E605B259 /* RCDownloadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCDownloadOperation.m; path = AVPlayerCacher/Classes/RCDownloadOperation.m; sourceTree = "<group>"; };
 		56BDC908E539CCF28BA1C6329973F82C /* Pods-AVPlayerCacher_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AVPlayerCacher_Example.modulemap"; sourceTree = "<group>"; };
+		576A5CF7EBF9735EECE2BC2561D9E691 /* NSString+RCMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RCMD5.h"; path = "AVPlayerCacher/Classes/NSString+RCMD5.h"; sourceTree = "<group>"; };
+		5BDDC707887E93EDDC43CB16979F0C27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5FC0045F45FDE54010DF3122196D6ACF /* Pods-AVPlayerCacher_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVPlayerCacher_Example-frameworks.sh"; sourceTree = "<group>"; };
+		600A0467DD3499FE88BA4257CB3C486D /* RCMediaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCMediaManager.m; path = AVPlayerCacher/Classes/RCMediaManager.m; sourceTree = "<group>"; };
+		640B37F80E52A37D9108247BD50ED28A /* AVPlayerCacher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AVPlayerCacher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64ADF13C8098599BB39CC4B456067C22 /* AVPlayerCacher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AVPlayerCacher.modulemap; sourceTree = "<group>"; };
+		68A0337170AA458B3545DD6F4B78DF85 /* AVPlayerCacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVPlayerCacher.debug.xcconfig; sourceTree = "<group>"; };
 		6A0AC371BF30F39E14901ABEB0BF0D1C /* Pods-AVPlayerCacher_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AVPlayerCacher_Tests"; path = Pods_AVPlayerCacher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD6DCCA9C20047B29CB9021626F4927 /* RCSegmentDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCSegmentDownloader.h; path = AVPlayerCacher/Classes/RCSegmentDownloader.h; sourceTree = "<group>"; };
 		6E45B5C8E4385DDD5DDC8140F96CE905 /* Pods-AVPlayerCacher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVPlayerCacher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E65274C25B611819BF7B1B48CEF0FFF /* AVPlayerCacher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AVPlayerCacher-Info.plist"; sourceTree = "<group>"; };
-		7EEF07BECB1F0AD63371700ECCE65739 /* AVPlayerCacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVPlayerCacher.debug.xcconfig; sourceTree = "<group>"; };
+		71DF29875C93DAFFFE0E20F922E41F87 /* RCMediaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCMediaManager.h; path = AVPlayerCacher/Classes/RCMediaManager.h; sourceTree = "<group>"; };
 		870F8CBD53639D50C0529B99A427B2A2 /* Pods-AVPlayerCacher_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AVPlayerCacher_Example"; path = Pods_AVPlayerCacher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		892DBA219B8F1E6F109AB60E34BAC852 /* AVPlayerCacher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AVPlayerCacher; path = AVPlayerCacher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B4987CA17C92304042EF19C490D9343 /* AVPlayerCacher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AVPlayerCacher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B5DBB6A5215D6780F8EBA7F4DA4103B /* Pods-AVPlayerCacher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVPlayerCacher_Example-dummy.m"; sourceTree = "<group>"; };
+		90F66517B7FE1D595AE64A1AC2D09E85 /* RCAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCAsset.h; path = AVPlayerCacher/Classes/RCAsset.h; sourceTree = "<group>"; };
+		98C97D2E323C4FEE6A1C7A8A1F84587E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		99517F9B0EC4E619975CBB2D79710FFC /* AVPlayerCacher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerCacher-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB5F54BB32859FD4E00DFEE5B190E44A /* Pods-AVPlayerCacher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVPlayerCacher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABD853960A24018F7C67098450E3F2DA /* Pods-AVPlayerCacher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayerCacher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0B6B5352BE11CA885769F9D2C50EA13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B3476E7E2353A25BAC3CB63E069838EF /* Pods-AVPlayerCacher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVPlayerCacher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA27C0794D0DD2D3183A3AEA4E3FC985 /* AVPlayerCacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVPlayerCacher.release.xcconfig; sourceTree = "<group>"; };
 		BAC4CA0E39254B9D6360102EA245C1AF /* Pods-AVPlayerCacher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayerCacher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C68A81D1A311729D11080F77958B9EF0 /* RCAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCAsset.m; path = AVPlayerCacher/Classes/RCAsset.m; sourceTree = "<group>"; };
+		C8F00498E7EDAAF29BFD7624F27BC9E2 /* RCSegmentDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCSegmentDownloader.m; path = AVPlayerCacher/Classes/RCSegmentDownloader.m; sourceTree = "<group>"; };
 		CA3479A6913CBBDF9B18B9F9BCB8E9F8 /* Pods-AVPlayerCacher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayerCacher_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CF2D668BCB73CC13D831BF56DBEFA4B3 /* Pods-AVPlayerCacher_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVPlayerCacher_Tests-Info.plist"; sourceTree = "<group>"; };
+		E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E5A0B9079FC80134C6A5D055C2CE1DEF /* Pods-AVPlayerCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayerCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8FB055EE31D59221E39D74D5B42DB83 /* Pods-AVPlayerCacher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVPlayerCacher_Tests-dummy.m"; sourceTree = "<group>"; };
 		F00333AA7BE46DD596ECBBCB231A4EFC /* Pods-AVPlayerCacher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVPlayerCacher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32E75A02B14B7237F6E4704AB3EE2D6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9B40863ED01627330838CA21581FD45 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7F453AFD19E5D4E94A0DE6AE7C92F556 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F4A1720CABEC516316F2DDDE2D948613 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA86E93B4BCEBDF5DB97E9C501A2B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBEC29FA1A26E88984BCB87CEBFD9F1 /* AVFoundation.framework in Frameworks */,
+				DF07E8343BCCD6EA3F22FFCD64F28928 /* Foundation.framework in Frameworks */,
+				1D22B7AD0817B1C88F305C7A1841A0C1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +128,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032FA3859DE07D2B843E31A5B9213CA0 /* Development Pods */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6C97932C63EEEA67737FD6A3BACDC81 /* AVPlayerCacher */,
+				439889605EFAD97B3872FAF274DF229F /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1C980874A52EC4EBCD63FBA8D0D47693 /* Pods-AVPlayerCacher_Example */ = {
@@ -125,6 +153,21 @@
 			path = "Target Support Files/Pods-AVPlayerCacher_Example";
 			sourceTree = "<group>";
 		};
+		1E65F692C4FDAB40067AC36A1D4CA2E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64ADF13C8098599BB39CC4B456067C22 /* AVPlayerCacher.modulemap */,
+				4DBF12AE500910E7F0F7DB77021D3E6E /* AVPlayerCacher-dummy.m */,
+				1EB6822E960F5B63868C40891DCB5B15 /* AVPlayerCacher-Info.plist */,
+				99517F9B0EC4E619975CBB2D79710FFC /* AVPlayerCacher-prefix.pch */,
+				4FC228CD20A7A47DCEDDDCC760D31CBF /* AVPlayerCacher-umbrella.h */,
+				68A0337170AA458B3545DD6F4B78DF85 /* AVPlayerCacher.debug.xcconfig */,
+				BA27C0794D0DD2D3183A3AEA4E3FC985 /* AVPlayerCacher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AVPlayerCacher";
+			sourceTree = "<group>";
+		};
 		248726566D025A2681663A39A50E392F /* Pods-AVPlayerCacher_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,35 +184,20 @@
 			path = "Target Support Files/Pods-AVPlayerCacher_Tests";
 			sourceTree = "<group>";
 		};
-		3DDD38C03AA506FE3A2D94F7AD1B6D04 /* Pod */ = {
+		2E2FB5D1E9F255E20C89C76C73573544 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B4987CA17C92304042EF19C490D9343 /* AVPlayerCacher.podspec */,
-				B0B6B5352BE11CA885769F9D2C50EA13 /* LICENSE */,
-				0D6202F89F266E2D23CBFC661B8D7198 /* README.md */,
+				906A95278F17E5C2674D7094AACBE089 /* AVPlayerCacher */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		55A5FFD04B6F4F4FE1ED73FE3FAA7109 /* Support Files */ = {
+		439889605EFAD97B3872FAF274DF229F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2AF5FEB6E07D3612ED560498C901537E /* AVPlayerCacher.modulemap */,
-				070D073DA801FD44B53D374E07E9E83D /* AVPlayerCacher-dummy.m */,
-				7E65274C25B611819BF7B1B48CEF0FFF /* AVPlayerCacher-Info.plist */,
-				4F74705E16E9B5F9A06DCC47F4CA45FF /* AVPlayerCacher-prefix.pch */,
-				40EEC482584AB348ED3B76734F93DF89 /* AVPlayerCacher-umbrella.h */,
-				7EEF07BECB1F0AD63371700ECCE65739 /* AVPlayerCacher.debug.xcconfig */,
-				167958D20A0AC17FE9A71F5027C824A6 /* AVPlayerCacher.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AVPlayerCacher";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */,
+				25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */,
+				E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -184,6 +212,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		906A95278F17E5C2674D7094AACBE089 /* AVPlayerCacher */ = {
+			isa = PBXGroup;
+			children = (
+				576A5CF7EBF9735EECE2BC2561D9E691 /* NSString+RCMD5.h */,
+				514B1F5C4D9B0B93F0F2409D8A4A4C33 /* NSString+RCMD5.m */,
+				90F66517B7FE1D595AE64A1AC2D09E85 /* RCAsset.h */,
+				C68A81D1A311729D11080F77958B9EF0 /* RCAsset.m */,
+				55C11464B61C3E5C177CA8D411A8AC4A /* RCDownloadOperation.h */,
+				55C5DB7B9D574F318C86D697E605B259 /* RCDownloadOperation.m */,
+				71DF29875C93DAFFFE0E20F922E41F87 /* RCMediaManager.h */,
+				600A0467DD3499FE88BA4257CB3C486D /* RCMediaManager.m */,
+				00211E2B82587276EAB755E62ABF13B4 /* RCQueueUtils.h */,
+				26F3A559352480C1E98172158E0EE090 /* RCQueueUtils.m */,
+				6BD6DCCA9C20047B29CB9021626F4927 /* RCSegmentDownloader.h */,
+				C8F00498E7EDAAF29BFD7624F27BC9E2 /* RCSegmentDownloader.m */,
+				BEC23CBB09DD3DB8D30F9E6EA7B62DBF /* Pod */,
+				1E65F692C4FDAB40067AC36A1D4CA2E8 /* Support Files */,
+			);
+			name = AVPlayerCacher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		9B9FBD61739BE4DF2F485CE2D78ECD9D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,47 +243,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A6C97932C63EEEA67737FD6A3BACDC81 /* AVPlayerCacher */ = {
+		BEC23CBB09DD3DB8D30F9E6EA7B62DBF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2132C020A3EF116F4D9F420D66721326 /* ReplaceMe.m */,
-				3DDD38C03AA506FE3A2D94F7AD1B6D04 /* Pod */,
-				55A5FFD04B6F4F4FE1ED73FE3FAA7109 /* Support Files */,
+				640B37F80E52A37D9108247BD50ED28A /* AVPlayerCacher.podspec */,
+				5BDDC707887E93EDDC43CB16979F0C27 /* LICENSE */,
+				98C97D2E323C4FEE6A1C7A8A1F84587E /* README.md */,
 			);
-			name = AVPlayerCacher;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				032FA3859DE07D2B843E31A5B9213CA0 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2E2FB5D1E9F255E20C89C76C73573544 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				7910BBF51C8D2C7AA0A235080863545B /* Products */,
 				9B9FBD61739BE4DF2F485CE2D78ECD9D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05079BBF04EE6C25E88697C69B860AB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EB0BCC5D8FA0C91237A70C455519B36 /* AVPlayerCacher-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A87AD4680B827A71D7CDCC0205E6D3A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +280,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6696DBFCEAD08546BD86A24D11C829DC /* Pods-AVPlayerCacher_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE92D24AC43A262D4A746838D393AE8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD04AB0F76E211B8E8D289E80607480 /* AVPlayerCacher-umbrella.h in Headers */,
+				9368732CD91475A5AE3D1FC57848F9D4 /* NSString+RCMD5.h in Headers */,
+				1F3958ED72672E6E909178DB9879BB03 /* RCAsset.h in Headers */,
+				B88844AB602BD03C7E841A2BED8EAB13 /* RCDownloadOperation.h in Headers */,
+				F0760390653040973EE75E685BAB8068 /* RCMediaManager.h in Headers */,
+				289FA98CEA8757332C052CAC472D01F0 /* RCQueueUtils.h in Headers */,
+				8FF42FB7EDDA8093C2D9E382C86E9923 /* RCSegmentDownloader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +312,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2B318E1446CB5D77FE979CD437D107D0 /* PBXTargetDependency */,
+				F3FA0A4D9083254538BF43E804207FD2 /* PBXTargetDependency */,
 			);
 			name = "Pods-AVPlayerCacher_Tests";
 			productName = Pods_AVPlayerCacher_Tests;
@@ -274,12 +321,12 @@
 		};
 		358940405DB1E15ED08B0C6D5632F803 /* AVPlayerCacher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD20A83CD0D957DD378F3DEC2C25FFD3 /* Build configuration list for PBXNativeTarget "AVPlayerCacher" */;
+			buildConfigurationList = 3DD517B2C504D74E3BFB09CCB5BBCEB5 /* Build configuration list for PBXNativeTarget "AVPlayerCacher" */;
 			buildPhases = (
-				05079BBF04EE6C25E88697C69B860AB2 /* Headers */,
-				31DE56A46A8B5BCEBD40443D4A9758A5 /* Sources */,
-				32E75A02B14B7237F6E4704AB3EE2D6C /* Frameworks */,
-				2BDF437A5AC8B9CE7F9F7502C886B97D /* Resources */,
+				CE92D24AC43A262D4A746838D393AE8C /* Headers */,
+				EAB5EE88D25DEAD85FA090FBB68D327B /* Sources */,
+				EA86E93B4BCEBDF5DB97E9C501A2B588 /* Frameworks */,
+				450B9C234DA6FC6D840CB175B275588E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +349,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ECCAE0AAEEECA81AF70D696261D5542D /* PBXTargetDependency */,
+				8C84BD9728D18D212B63E5A57DB15B5A /* PBXTargetDependency */,
 			);
 			name = "Pods-AVPlayerCacher_Example";
 			productName = Pods_AVPlayerCacher_Example;
@@ -339,7 +386,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BDF437A5AC8B9CE7F9F7502C886B97D /* Resources */ = {
+		450B9C234DA6FC6D840CB175B275588E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,15 +418,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31DE56A46A8B5BCEBD40443D4A9758A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59DB020F49A6917D74C9C60273534D5A /* AVPlayerCacher-dummy.m in Sources */,
-				45F0D9D7E237D6A46E8F8F221A34490E /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE2858FFF03C5965A5499FF5941BEE32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,20 +426,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAB5EE88D25DEAD85FA090FBB68D327B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EAE7D9F2F0E941401DFD29377573C8 /* AVPlayerCacher-dummy.m in Sources */,
+				847111B284C2B460545BC61B495E7D23 /* NSString+RCMD5.m in Sources */,
+				AEAA107E900D12DD99244BDD7E3FB14A /* RCAsset.m in Sources */,
+				F779A5E1F04CDD859E641F749FC015C7 /* RCDownloadOperation.m in Sources */,
+				CDE233B4B538741B4031E6A03924C66B /* RCMediaManager.m in Sources */,
+				9DEA00A82EE892713FDAD550D1AB1C8B /* RCQueueUtils.m in Sources */,
+				99A07791623F253CEC8ECCFEDD3BBF64 /* RCSegmentDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B318E1446CB5D77FE979CD437D107D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AVPlayerCacher_Example";
-			target = FF35CEB2211196AADCA9123EC421AACB /* Pods-AVPlayerCacher_Example */;
-			targetProxy = B2BB8D3EAE5BDD2487FA620D1CE6275F /* PBXContainerItemProxy */;
-		};
-		ECCAE0AAEEECA81AF70D696261D5542D /* PBXTargetDependency */ = {
+		8C84BD9728D18D212B63E5A57DB15B5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AVPlayerCacher;
 			target = 358940405DB1E15ED08B0C6D5632F803 /* AVPlayerCacher */;
-			targetProxy = F6FED8C3C0D477534700E2CE45DB8AE4 /* PBXContainerItemProxy */;
+			targetProxy = 6738E54F452ABFFD6DD0B9180098EC18 /* PBXContainerItemProxy */;
+		};
+		F3FA0A4D9083254538BF43E804207FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AVPlayerCacher_Example";
+			target = FF35CEB2211196AADCA9123EC421AACB /* Pods-AVPlayerCacher_Example */;
+			targetProxy = FAA40CA6D924E724E2EAE399DADCE620 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,6 +490,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6123B86652CBF35D68B0F038E95953FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA27C0794D0DD2D3183A3AEA4E3FC985 /* AVPlayerCacher.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AVPlayerCacher/AVPlayerCacher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AVPlayerCacher/AVPlayerCacher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AVPlayerCacher/AVPlayerCacher.modulemap";
+				PRODUCT_MODULE_NAME = AVPlayerCacher;
+				PRODUCT_NAME = AVPlayerCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -498,38 +582,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		80A7936F512D9455CB7F2677CD93D80A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 167958D20A0AC17FE9A71F5027C824A6 /* AVPlayerCacher.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AVPlayerCacher/AVPlayerCacher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AVPlayerCacher/AVPlayerCacher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AVPlayerCacher/AVPlayerCacher.modulemap";
-				PRODUCT_MODULE_NAME = AVPlayerCacher;
-				PRODUCT_NAME = AVPlayerCacher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -700,9 +752,9 @@
 			};
 			name = Release;
 		};
-		F2400451A08CECD3EB3FD8A1764E810B /* Debug */ = {
+		F5FC261D245D78B74C1ACB519D17E59F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EEF07BECB1F0AD63371700ECCE65739 /* AVPlayerCacher.debug.xcconfig */;
+			baseConfigurationReference = 68A0337170AA458B3545DD6F4B78DF85 /* AVPlayerCacher.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -734,6 +786,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3DD517B2C504D74E3BFB09CCB5BBCEB5 /* Build configuration list for PBXNativeTarget "AVPlayerCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FC261D245D78B74C1ACB519D17E59F /* Debug */,
+				6123B86652CBF35D68B0F038E95953FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -757,15 +818,6 @@
 			buildConfigurations = (
 				C07592AF151D1D334B50CD9C8D43E417 /* Debug */,
 				CC95E03DF6DBDEA31FFD4D499F50330F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD20A83CD0D957DD378F3DEC2C25FFD3 /* Build configuration list for PBXNativeTarget "AVPlayerCacher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2400451A08CECD3EB3FD8A1764E810B /* Debug */,
-				80A7936F512D9455CB7F2677CD93D80A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
